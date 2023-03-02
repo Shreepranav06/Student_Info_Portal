@@ -4,5 +4,5 @@ from django.http import HttpResponse
 
 
 def nothing(request):
-    return HttpResponse("STARTING PAGE")
+    return render(request, 'startingpage.html'))
 
