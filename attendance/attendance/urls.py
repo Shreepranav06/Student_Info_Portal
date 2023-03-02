@@ -32,7 +32,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('login/', loginaction),
     path('signup/', signation),
-    path("", signation)
+    path("", nothing)
 
 
 
